@@ -87,7 +87,7 @@ function draw() {
     }
     
     //jump when the space key is pressed
-    if(keyDown("space")) {
+    if(keyDown("space")&& monkey.y >= 100) {
         monkey.velocityY = -12;
     }    
     
