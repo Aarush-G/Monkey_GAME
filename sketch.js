@@ -78,6 +78,8 @@ function draw() {
       monkey.changeAnimation("running", monkey_running);
     
     survialTime = Math.ceil(frameCount/frameRate());
+    
+    monkey.collide(upper edge)
      
     
     if (ground.x < 0){
@@ -95,7 +97,7 @@ function draw() {
     }
    
   //Gravity
-  monkey.velocityY = monkey.velocityY + 0.8;
+  monkey.velocityY = monkey.velocityY + 1;
   
     
   
